@@ -1,0 +1,148 @@
+    /* Body Styling */
+            body {
+                    font-family:  sans-serif;
+                        background-color: thistle;
+                            margin: 0;
+                                padding: 0;
+                                    color: purple;
+                                    }
+
+                                    /* Container Styling */
+                                    .container {
+                                            width: 90%;
+                                                max-width: 1100px;
+                                                    margin: 40px auto;
+                                                        padding: 20px;
+                                                            background-color: white;
+                                                                border-radius: 10px;
+                                                                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                    }
+
+                                    /* Header Styling */
+                                    header {
+                                            text-align: center;
+                                                margin-bottom: 40px;
+                                                }
+
+                                                h1 {
+                                                        font-size: 3em;
+                                                            color: \0056b3;
+                                                                letter-spacing: 1px;
+                                                                    margin-bottom: 10px;
+                                                                        font-weight: 700;
+                                                                        }
+
+                                                                        /* Search Bar Styling */
+                                                                        #search-bar {
+                                                                                width: 100%;
+                                                                                    max-width: 600px;
+                                                                                        padding: 12px 15px;
+                                                                                            font-size: 1.2em;
+                                                                                                border: 2px solid \ccc;
+                                                                                                    border-radius: 25px;
+                                                                                                        margin: 20px auto;
+                                                                                                            display: block;
+                                                                                                                transition: all 0.3s ease;
+                                                                                                                }
+
+                                                                                                                #search-bar:focus {
+                                                                                                                        border-color: \0056b3;
+                                                                                                                            box-shadow: 0 0 10px rgba(0, 86, 179, 0.2);
+                                                                                                                                outline: none;
+                                                                                                                                }
+
+                                                                                                                                /* University List Styling */
+                                                                                                                                #university-list {
+                                                                                                                                        margin-top: 30px;
+                                                                                                                                        }
+
+                                                                                                                                        #uniList {
+                                                                                                                                                list-style-type: none;
+                                                                                                                                                    padding: 0;
+                                                                                                                                                    }
+
+                                                                                                                                                    #uniList li {
+                                                                                                                                                            background-color: purple;
+                                                                                                                                                                padding: 15px;
+                                                                                                                                                                    margin: 10px 0;
+                                                                                                                                                                        border-radius: 8px;
+                                                                                                                                                                            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+                                                                                                                                                                                transition: all 0.3s ease;
+                                                                                                                                                                                    border: 1px solid yellow;
+                                                                                                                                                    }
+
+                                                                                                                                                    /* Links Styling */
+                                                                                                                                                    #uniList li a {
+                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                color: yellow;
+                                                                                                                                                                    font-size: 1.3em;
+                                                                                                                                                                        font-weight: 500;
+                                                                                                                                                    }
+
+                                                                                                                                                    #uniList li:hover {
+                                                                                                                                                            background-color: red;
+                                                                                                                                                                box-shadow: 0 5px 10px rgba(0, 86, 179, 0.2);
+                                                                                                                                                                    transform: translateY(-2px);
+                                                                                                                                                                    }
+
+                                                                                                                                                                    #uniList li:hover a {
+                                                                                                                                                                            color: white;
+                                                                                                                                                                                text-decoration: none;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                /* Footer Styling */
+                                                                                                                                                                                
+                                                                                                                                                                                footer {
+                                                                                                                                                                                        background-color: purple;
+                                                                                                                                                                                            color: yellow;
+                                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                                    padding: 20px;
+                                                                                                                                                                                                        margin-top: 50px;
+                                                                                                                                                                                                            font-size: 50px;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                .footer-container p {
+                                                                                                                                                                                        margin: 10px 0;
+                                                                                                                                                                                            font-size: 30px;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                /* Social icons styling */
+                                                                                                                                                                                .social-icons {
+                                                                                                                                                                                        margin: 20px 0;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                .social-icons .icon {
+                                                                                                                                                                                        margin: 0 10px;
+                                                                                                                                                                                        display: inline-block;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                .social-icons .icon img {
+                                                                                                                                                                                        width: 40px;
+                                                                                                                                                                                            height: 40px;
+                                                                                                                                                                                                transition: transform 0.3s ease;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                .social-icons .icon img:hover {
+                                                                                                                                                                                        transform: scale(1.2); /* Zoom effect on hover */
+                                                                                                                                                                                }
+
+                                                                                                                                                                                /* Copyright text */
+                                                                                                                                                                                footer p:last-child {
+                                                                                                                                                                                        margin-top: 20px;
+                                                                                                                                                                                            font-size: 30px;
+                                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                                }
+                                                                                                                                                                              
+                                                                                                                                                                                
+
+                                                                                                                                                                                                        /* Media Queries for Responsiveness */
+                                                                                                                                                                                                        @media (max-width: 768px) {
+                                                                                                                                                                                                                #search-bar {
+                                                                                                                                                                                                                            font-size: 1.1em;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                                    h1 {
+                                                                                                                                                                                                                                font-size: 2.2em;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                    
